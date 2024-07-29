@@ -16,8 +16,8 @@ end
 -- e.g.: require('color_scheme').setup{}, vim.cmd('color_scheme') ...
 require('onedark').setup {
   -- styles: dark, darker, cool, deep, warm, warmer, light
-  style = 'darker',
-  colors = { fg = '#a0a8b7' }, --default: #a0a8b7
+  style = 'warmer', --#232326
+  colors = {fg = '#a0a8b7'} --default: #a0a8b7,
 }
 require('onedark').load()
 
@@ -39,7 +39,7 @@ local M = {}
 -- Theme: OneDark (dark)
 -- Colors: https://github.com/navarasu/onedark.nvim/blob/master/lua/onedark/palette.lua
 M.onedark_dark = {
-  bg = '#282c34',
+  bg = '#282c34', --282c34
   fg = '#b2bbcc',
   pink = '#c678dd',
   green = '#98c379',
