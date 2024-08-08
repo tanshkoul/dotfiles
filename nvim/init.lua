@@ -21,5 +21,4 @@ vim.cmd('highlight EndOfBuffer guibg=#000000')
 vim.cmd('highlight LineNr guibg=#000000')
 vim.cmd('highlight NvimTreeNormal guibg=#000000')
 vim.cmd('highlight NvimTreeEndOfBuffer guibg=#000000')  -- Ensure NvimTree end of buffer matches
-
 vim.opt.fillchars:append { eob = " " }
